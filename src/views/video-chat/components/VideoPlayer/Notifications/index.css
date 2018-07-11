@@ -1,0 +1,160 @@
+#lc-message {
+    background: #fff;
+    border: none;
+    border-radius: 3px;
+    color: #666;
+    display: block;
+    font: normal 15px/20px 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    height: 40px;
+    outline: none;
+    padding: 8px 16px;
+    width: 100%;
+}
+
+.hdvc-input-box {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 70px;
+    opacity: .4;
+    width: 100%;
+}
+
+.hdvc-input-box.active {
+    opacity: 1;
+}
+
+.hdvc-input-box form {
+    display: block;
+    width: 100%;
+}
+
+@keyframes messageFlow {
+    0% {
+        opacity: 0;
+        bottom: -10px;
+    }
+    5% {
+        opacity: 1;
+        bottom: 0px;
+    }
+    80% {
+        bottom: 0px;
+        opacity: 1;
+    }
+    100% {
+        bottom: 100px;
+        opacity: .1;
+    }
+}
+
+@keyframes scaleIn {
+    0% {
+        transform: scale(0);
+    }
+    25% {
+        transform: scale(1);
+    }
+}
+
+@keyframes scaleInMessage {
+    0% {
+        transform: scale(0);
+    }
+    25% {
+        transform: scale(0);
+    }
+    45% {
+        transform: scale(1);
+    }
+}
+
+@keyframes popIn {
+  0% {
+    -webkit-transform: scale(0.8);
+  	-moz-transform: scale(0.8);
+  	-ms-transform: scale(0.8);
+  	transform: scale(0.8);
+  	opacity: 0;
+  }
+  20% {
+    -webkit-transform: scale(1);
+  	-moz-transform: scale(1);
+  	-ms-transform: scale(1);
+  	transform: scale(1);
+  	opacity: 1;
+  }
+}
+
+.popInAnimation {
+  animation: popIn 2s ease-in-out;
+}
+
+.messageAnimation {
+  transform-origin: 0% 0% 0;
+  animation: scaleInMessage 2s ease-in-out;
+}
+
+.userMessageAnimation {
+    transform-origin: 100% 0% 0;
+    animation: scaleInMessage 2s ease-in-out;
+}
+
+.messageFlowAnimation {
+    animation: messageFlow 7s linear;
+}
+
+.iconAnimation {
+    transform-origin: 0 50% 0;
+    animation: scaleIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    -webkit-transform: scale(0.8);
+  	-moz-transform: scale(0.8);
+  	-ms-transform: scale(0.8);
+  	transform: scale(0.8);
+  	opacity: 0;
+  }
+  70% {
+    -webkit-transform: scale(0.8);
+  	-moz-transform: scale(0.8);
+  	-ms-transform: scale(0.8);
+  	transform: scale(0.8);
+  	opacity: 0;
+  }
+  80% {
+    -webkit-transform: scale(1);
+  	-moz-transform: scale(1);
+  	-ms-transform: scale(1);
+  	transform: scale(1);
+  	opacity: 1;
+  }
+}
+
+@keyframes fadeInFast {
+  0% {
+    -webkit-transform: scale(0.8);
+  	-moz-transform: scale(0.8);
+  	-ms-transform: scale(0.8);
+  	transform: scale(0.8);
+  	opacity: 0;
+  }
+  10% {
+    -webkit-transform: scale(1);
+  	-moz-transform: scale(1);
+  	-ms-transform: scale(1);
+  	transform: scale(1);
+  	opacity: 1;
+  }
+}
+
+.fadeInAnimation {
+  animation: fadeIn 10s linear;
+}
+
+.fadeInAnimationFast {
+  animation: fadeInFast 3s linear;
+}

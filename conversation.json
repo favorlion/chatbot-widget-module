@@ -1,0 +1,133 @@
+[
+  {
+    "source": "user",
+    "type": "text",
+    "text": "hi"
+  },
+  {
+    "source": "service",
+    "type": "text",
+    "text": "Hi, I’m Magic, Disney’s Facebook Messenger Chat Bot. I can help you book a hotel, restaurants, tickets for attractions, and more. I can also give you information about our magical parks and resorts."
+  },
+  {
+    "source": "service",
+    "type": "text",
+    "quickReplies": ["USA", "Europe", "Asia"],
+    "text": "Where would you like to go?"
+  },
+  {
+    "source": "user",
+    "type": "text",
+    "text": "USA"
+  },
+  {
+    "type": "fb:generic",
+    "payload": {
+      "elements": [
+        {
+          "item_url": "https://secure.parksandresorts.wdpromedia.com/resize/mwImage/1/640/360/75/w…dpro-assets/gallery/destinations/magic-kingdom/magic-kingdom-gallery00.jpg",
+          "buttons": [
+            {
+              "title": "Select",
+              "payload": "Magic Kingdom",
+              "type": "postback"
+            },
+            {
+              "title": "Info",
+              "url": "https://disneyworld.disney.go.com/en_CA/destinations/magic-kingdom/",
+              "type": "web_url"
+            },
+            {
+              "title": "Change location",
+              "payload": "Change location",
+              "type": "postback"
+            }
+          ],
+          "title": "Magic Kingdom",
+          "image_url": "https://secure.parksandresorts.wdpromedia.com/resize/mwImage/1/640/360/75/w…dpro-assets/gallery/destinations/magic-kingdom/magic-kingdom-gallery00.jpg",
+          "subtitle": "Bay Lake, Florida"
+        },
+        {
+          "item_url": "https://secure.parksandresorts.wdpromedia.com/resize/mwImage/1/640/360/90/w…ro-assets/gallery/destinations/animal-kingdom/animal-kingdom-gallery00.jpg",
+          "buttons": [
+            {
+              "title": "Select",
+              "payload": "Animal Kingdom",
+              "type": "postback"
+            },
+            {
+              "title": "Info",
+              "url": "https://disneyworld.disney.go.com/destinations/animal-kingdom/",
+              "type": "web_url"
+            },
+            {
+              "title": "Change location",
+              "payload": "Change location",
+              "type": "postback"
+            }
+          ],
+          "title": "Animal Kingdom",
+          "image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Sleeping_Beauty_Castle_Disneyland_Anaheim_2013.jpg/250px-Sleeping_Beauty_Castle_Disneyland_Anaheim_2013.jpg",
+          "subtitle": "Bay Lake, Floride"
+        },
+        {
+          "item_url": "http://www.anaheimdesertinn.com/files/1655/paradise_pier_2009_Copyright_1.jpg",
+          "buttons": [
+            {
+              "title": "Select",
+              "payload": "Disneyland",
+              "type": "postback"
+            },
+            {
+              "title": "Info",
+              "url": "http://disneyworld.disney.go.com/en_CA/destinations/magic-kingdom/",
+              "type": "web_url"
+            },
+            {
+              "title": "Change location",
+              "payload": "Change location",
+              "type": "postback"
+            }
+          ],
+          "title": "Disneyland",
+          "image_url": "http://www.anaheimdesertinn.com/files/1655/paradise_pier_2009_Copyright_1.jpg",
+          "subtitle": "Anaheim, CA"
+        }
+      ],
+      "template_type": "generic"
+    },
+    "source": "service"
+  },
+  {
+    "source":"service",
+    "type": "video",
+    "image": "https://i.ytimg.com/vi/cMx7JrZ5FW0/hqdefault.jpg",
+    "video": "https://www.youtube.com/embed/cMx7JrZ5FW0"
+  },
+  {
+    
+    "type": "buttons",
+    "buttonContainer": {
+      "buttonArray": [
+        {
+          "buttonType":"grow-business",
+          "buttonImage":"grow-business.png",
+          "buttonText": "Grow My Business"
+        },
+        {
+          "buttonType":"go-global",
+          "buttonImage":"globe.png",
+          "buttonText": "Go Global"
+        }
+      ]
+    },
+    "source": "service",
+    "text": "Here is a brief description of the buttons or something like that. Who knows?"
+  },
+  {
+    "source": "service",
+    "type" : "info-pic",
+    
+    "img": "http://placekitten.com/300/300"
+  }
+]

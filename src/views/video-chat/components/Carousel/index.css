@@ -1,0 +1,184 @@
+.carousel {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.Carousel {
+    position: relative;
+    width: 300px;
+    margin-left: -20px;
+}
+
+.ProductCarousel {
+    position: relative;
+}
+
+.ProductCarousel-arrowRight {
+    right: 0;
+}
+
+.ProductCarousel-arrowLeft {
+    left: 0;
+}
+
+.ProductCarousel-arrow {
+    position: absolute;
+    width: 5%;
+    top: 0;
+    height: 100%;
+    font-size: 35px;
+    cursor: pointer;
+    transition: font-size 0.3s ease;
+    -webkit-transition: opacity 0.3s ease;
+    -moz-transition: opacity 0.3s ease;
+    z-index: 999;
+}
+
+.ProductCarousel-arrow-image {
+  width:45%;
+  height:100%;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+
+.Carousel-arrow:hover {
+    opacity: 0.5;
+}
+
+.Carousel-card-info-container {}
+
+.Carousel-card-image {
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.Carousel-card-title {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 120%;
+}
+
+.Carousel-card-subtitle {
+    opacity: 80%;
+    text-align: center;
+    /*font-size: 80%;*/
+    margin: 0 10px 10px;
+}
+
+.Carousel-card-button {
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 15px 0;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+}
+
+
+/*.u-hidden {*/
+
+
+/*    display: none*/
+
+
+/*}*/
+
+.Carousel-navigator>* {
+    display: inline-block;
+}
+
+.Carousel-index-dot {
+    display: inline-block;
+    font-size: 40px;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+    -webkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    cursor: pointer;
+}
+
+.Carousel-index-dot:hover {
+    opacity: 1;
+}
+
+.Carousel-index-dots {
+    /*display: inline-block;*/
+    text-align: center;
+}
+
+.solid-dot {
+    opacity: 1;
+}
+
+.Carousel-navigator {
+    text-align: center;
+}
+
+.Carousel-card-container {
+    position: relative;
+    display: inline-block;
+    /*margin: 20px;*/
+    width:32%;
+    margin: 0 0 0 8px;
+    /*white-space: normal;*/
+    /*padding: 10px 15px;*/
+}
+
+.Carousel-card {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    /*right: 17%;*/
+    background-color: white;
+}
+
+.Carousel-card-container.active .Carousel-card {
+    left: 0;
+    -webkit-box-shadow: 10px 9px 2px -9px rgba(153, 153, 153, 1);
+    -moz-box-shadow: 10px 9px 2px -9px rgba(153, 153, 153, 1);
+    box-shadow: 10px 9px 2px -9px rgba(153, 153, 153, 1);
+}
+
+.Carousel-slider-container {
+    /*width: 350px;*/
+    width: 80px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding-left: -20px;
+}
+
+.Carousel-card-image {
+    margin: 0;
+}
+
+.Carousel-card-button-container {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Carousel-card-title, .Carousel-card-subtitle {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Carousel-card-title {
+    font-size: 18px;
+}
+
+.Carousel-card-subtitle {
+    font-size: 24px;
+}

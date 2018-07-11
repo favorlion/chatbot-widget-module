@@ -1,0 +1,229 @@
+
+/*.Button {*/
+    /*color: white;*/
+    /*background-color: #B712AE;*/
+/*}*/
+
+
+
+.Conversation {
+    background-color: white;
+}
+
+.TextInput-textarea {
+    background-color: white;
+
+}
+
+.SendButton {
+    background-image: url(../images/ups-send-button.png);
+}
+
+.Header {
+    color: white;
+    background-color: white;
+    background-image: url(../images/bridgestone/header.png);
+    display: none;
+}
+
+
+.Message-bubble--user {
+    color: black;
+    background-color: #f4f4f4;
+}
+
+.Message-bubble--service {
+    color: black;
+    background-color: #f4f4f4;
+}
+
+.Avatar-service {
+    background-image: url(../images/bridgestone/bot-avatar.png);
+}
+
+.Avatar-user {
+    background-image: url(../images/ups-avatar-user.png);
+}
+
+.quick-reply-button {
+    border: 1px solid white;
+    color: white;
+    background-color: #B712AE;
+}
+
+.Button {
+    margin: 5px 0;
+    padding: 0px 15px;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    height: 200px;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 15px;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+}
+
+.Button-img {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto 25px;
+    width: 100%;
+    height: 70%;
+    border-radius: 7px;
+}
+
+.Button-img span{
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.Message--video {
+    max-width: 420px;
+    height: 315px;
+    border-radius: 7px;
+}
+
+.TextInput-textarea{
+    display: none;
+}
+
+.SendButton{
+    display: none;
+}
+
+.quick-reply-container {
+  white-space: normal;
+}
+
+.quick-reply-button {
+  width: 22%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.ProductCarousel-arrowLeft-image {
+    position:absolute;
+    left:0;
+    background-image: url(../images/arrow-left.png);
+}
+
+.ProductCarousel-arrowRight-image {
+    position:absolute;
+    right:0;
+    background-image: url(../images/arrow-right.png);
+}
+
+.Carousel-arrow:hover {
+    opacity: 0.5;
+}
+
+.Carousel-card-button {
+    border: none;
+    color:#B712AE;
+    text-align: center;
+    padding: 10px;
+    margin: 15px 0;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+
+.Carousel-card-image{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 175px;
+}
+
+.ProductCarousel{
+    width: 100%;
+}
+
+img{
+    max-width: 400px;
+}
+
+
+.ProductCarousel-Grid {
+    text-align: center;
+}
+.ProductCarousel-Grid .Carousel-card-container {
+    position: relative;
+    display: inline-block;
+    width: calc(25% - 20px);
+    vertical-align: top;
+    margin: 0 5px 20px;
+    cursor: pointer;
+}
+.ProductCarousel-Grid .Carousel-card-button-container {
+    padding: 5px;
+}
+.ProductCarousel-Grid .Carousel-card-button {
+    margin: 0;
+    padding: 5px;
+}
+.ProductCarousel-Grid .Carousel-card-image {
+    height: 150px;
+}
+.ProductCarousel-Grid .Carousel-card {
+    box-shadow: 1px 1px 5px rgba(0,0,0, .2);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+.ProductCarousel-Mobile .react-swipe-container.carousel {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.ProductCarousel-Mobile .Carousel-card-container-mobile {
+    overflow: hidden;
+}
+.ProductCarousel-Mobile .ProductCarousel-arrow-mobile {
+    width: 30px;
+}
+.ProductCarousel-Mobile .Carousel-card-mobile {
+    padding: 0;
+    margin-bottom: 5px;
+    box-shadow: 1px 2px 5px rgba(0,0,0, .2) !important;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.ProductCarousel-Mobile .Carousel-card-button {
+    padding: 5px;
+    margin: 0;
+}
+.ProductCarousel-Mobile .Carousel-card-button-container {
+    padding: 5px;
+}
+
+.ProductCarousel-Mobile .ProductCarousel-arrow-image {
+    width: 100%;
+}
+
+.img_contain .Carousel-card-image {
+    background-size: 90% 55%;
+    background-repeat: no-repeat;
+}
+
+.ProductCarousel-Mobile .img_contain .Carousel-card-image {
+    background-size: 90% 65%;
+    height: 0;
+    padding-bottom: 75%;
+}
+
+@media screen and (max-width: 700px ){
+    img{
+        max-width: 300px;
+    }
+}

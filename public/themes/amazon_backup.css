@@ -1,0 +1,91 @@
+
+.Button {
+  color: #333;
+  background-color: white;
+}
+
+.Carousel-card-button {
+    border: 2px solid #ffc564;
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 10px;
+    margin: 5px 0 0 0;
+    color: #333;
+}
+
+.Carousel-card-button:first-child {
+    margin: 0 0 0 0;
+}
+
+.Carousel-card-button:hover {
+    background-color: #ffc564;
+}
+
+.Conversation {
+  background-color: #F1F3F9;
+}
+
+.TextInput-textarea {
+  background-color: white;
+}
+
+.SendButton {
+  background-image: url(../images/send-button.png);
+}
+
+.Header {
+  color: white;
+  background-color: #374250;
+  background-image: url(../images/amazon-header.png);
+}
+
+.Message-bubble--user {
+  color: #333;
+  background-color: white;
+}
+
+.Message-bubble--service {
+  color: #333;
+  background-color: #ffc564;
+}
+
+.Avatar-service {
+    background-image: url(../images/amazon-avatar.png);
+    border-radius: 50%;
+}
+
+.Avatar-user {
+    background-image: url(../images/ups-avatar-user.png);
+}
+
+.quick-reply-button {
+  border: 2px solid #f7b632;
+  color: #333;
+}
+
+.Carousel-Card {
+    background-color: white;
+    /*padding: 0 20px;*/
+    color: #333;
+    border-radius: 5px;
+}
+
+/* TODO change .lines to a more descriptive class name */
+/* Maybe set the max-width to the message groups, not here */
+
+.lines {
+  /*max-width: 800px;*/
+  /*margin: 0 auto;*/
+}
+
+.ProductCarousel-arrowLeft-image {
+  position:absolute;
+  left:0;
+  background-image: url(../images/arrow-left.png);
+}
+
+.ProductCarousel-arrowRight-image {
+  position:absolute;
+  right:0;
+  background-image: url(../images/arrow-right.png);
+}

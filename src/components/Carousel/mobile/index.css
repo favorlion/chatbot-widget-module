@@ -1,0 +1,56 @@
+.Carousel-card-mobile {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    /*width: 104%;*/
+    background-color: white;
+    padding: 15px;
+}
+
+.Carousel-card-container-mobile.active {
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.Carousel-card-container-mobile.active .Carousel-card-mobile {
+    width: 90%;
+    -webkit-box-shadow: 10px 9px 2px -9px rgba(153, 153, 153, 1);
+    -moz-box-shadow: 10px 9px 2px -9px rgba(153, 153, 153, 1);
+    box-shadow: 10px 9px 2px -9px rgba(153, 153, 153, 1);
+}
+
+.Carousel-card-container-mobile.right .Carousel-card-mobile {
+    right: 8%;
+    -webkit-box-shadow: 10px 9px 2px -9px rgba(153, 153, 153, 1);
+    -moz-box-shadow: 10px 9px 2px -9px rgba(153, 153, 153, 1);
+    box-shadow: 10px 9px 2px -9px rgba(153, 153, 153, 1);
+}
+
+.Carousel-card-container-mobile.left .Carousel-card-mobile {
+    left: 13%;
+    -webkit-box-shadow: 10px 9px 2px -9px rgba(153, 153, 153, 1);
+    -moz-box-shadow: 10px 9px 2px -9px rgba(153, 153, 153, 1);
+    box-shadow: 10px 9px 2px -9px rgba(153, 153, 153, 1);
+}
+
+.ProductCarousel-arrow-mobile {
+    position: absolute;
+    width: 15%;
+    top: 0;
+    height: 100%;
+    font-size: 35px;
+    cursor: pointer;
+    transition: font-size 0.3s ease;
+    -webkit-transition: opacity 0.3s ease;
+    -moz-transition: opacity 0.3s ease;
+    z-index: 999;
+}
+
+.Carousel-card-container-mobile {
+    position: relative;
+    /*margin: 20px;*/
+    width: 90%;
+    margin: 0 0 0 8px;
+    /*white-space: normal;*/
+    /*padding: 10px 15px;*/
+}

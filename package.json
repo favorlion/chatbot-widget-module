@@ -1,0 +1,54 @@
+{
+  "name": "chat-interface",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "rs": "react-scripts",
+    "start": "node server.js",
+    "dev": "nodemon --debug=5859 server.js",
+    "build": "npm run rs build",
+    "postinstall": "npm run build",
+    "test": "tap test/*"
+  },
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "dependencies": {
+    "amazon-product-api": "^0.4.2",
+    "body-parser": "^1.15.2",
+    "classnames": "^2.2.5",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "jquery": "^1.10.2",
+    "lodash": "^4.17.2",
+    "morgan": "^1.7.0",
+    "query-string": "^4.2.3",
+    "react": "^15.4.1",
+    "react-addons-css-transition-group": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-router": "^3.0.2",
+    "react-scripts": "^0.7.0",
+    "react-swipe": "^5.0.6",
+    "request": "^2.74.0",
+    "request-promise": "^4.1.1",
+    "socket.io": "^1.4.8",
+    "socket.io-client": "^1.4.8",
+    "swipe-js-iso": "^2.0.3",
+    "video-js": "^0.7.0",
+    "videojs-markers": "^0.7.0",
+    "videojs-overlay": "^1.1.1"
+  },
+  "engines": {
+    "node": "^6.3.1"
+  },
+  "homepage": "https://chat-interface.herokuapp.com",
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.11.1",
+    "eslint-plugin-react": "^6.8.0",
+    "tap": "^8.0.0",
+    "tape": "^4.6.2",
+    "video.js": "^5.12.6"
+  }
+}

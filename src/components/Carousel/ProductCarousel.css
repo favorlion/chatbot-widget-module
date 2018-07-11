@@ -1,0 +1,33 @@
+.ProductCarousel {
+  margin-top: 30px;
+}
+
+.ProductCarousel-arrow {
+  display: inline-block;
+}
+
+.ProductCarousel-arrowLeft {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ProductCarousel-arrowRight {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.CarouselCard {
+  width: calc(100% - 100px) !important;
+}
+
+@media (max-width: 600px) {
+  .CarouselCard {
+    width: 250px;
+  }
+}
+
+@media (max-width: 320px) {
+  .CarouselCard {
+    width: 195px;
+  }
+}

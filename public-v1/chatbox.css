@@ -1,0 +1,143 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: Montserrat, arial;
+    margin: 0;
+}
+
+.widget {
+    border-radius: 18px;
+    /*background-color: #e0e0e0;;*/
+}
+.widget-header {
+    text-align: center;
+    padding: 10px;   
+}
+
+.input-box {
+    display: block;
+    resize: none;
+    width: 100%;
+    padding: 10px;
+    font-family: Montserrat, arial;
+    border: none;
+    outline: none;
+    height: 60px;
+    margin: 0;
+}
+
+.chat-container {
+    padding: 10px;
+    overflow-y: scroll;
+    height: 448px;
+}
+
+.chat-item {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 9px;
+    display: inline-block;
+}
+
+.carousel-card {
+    display: block;
+    padding: 8px;
+    background-color: white;
+    border-radius: 9px;
+}
+
+.chat-item-user {
+    background-color: #2998ff;
+    color: white;
+    text-align: right;
+}
+
+.chat-item-service {
+    background-color: #f0f0f0;
+    color: #2998ff;
+}
+
+.chat-item-buttons {
+    display: block !important;
+}
+
+.chat-item-button:last-child {
+    border: none;
+}
+
+.chat-line {
+    margin: 0 0;
+}
+
+.chat-item-button {
+    text-align: center;
+    padding: 8px;
+    font-size: 90%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.chat-item-image-img {
+    max-width: 100%;
+    max-height: 100px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-title {
+    font-size: 100%;
+    text-align: center;
+}
+
+.card-subtitle {
+    font-size: 80%;
+    text-align: center;
+    color: #a0a0a0;
+    margin-bottom: 10px;
+}
+
+.quick-replies-container {
+    text-align: center;
+    /*background-color: #b8b8b8;*/
+    top: -10px;
+    position: relative;
+}
+
+.quick-reply {
+    display: inline-block;
+    border: 2px solid #2998ff;
+    border-radius: 100px;
+    padding: 8px;
+    margin: 0 5px;
+    color: #2998ff;
+    cursor: pointer;
+}
+
+.circle-button {
+    background-color: white;
+    border-radius: 100px;
+    padding: 1px;
+    display: inline-block;
+    margin: 0 4px;
+    cursor: pointer;
+    color: #2998ff;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.circle-button:hover {
+    background-color: #f0f0f0;
+}
+
+.carousel-buttons {
+    text-align: center;
+    margin: 8px 0;
+}

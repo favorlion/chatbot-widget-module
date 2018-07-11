@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="213" viewBox="0 0 280 213" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <polygon id="a" points="0 213.354 278.458 213.354 278.458 0 0 0"/>
+    <linearGradient id="c" x1="0%" y1="0%" y2="100%">
+      <stop stop-color="#9F1B96" offset="0%"/>
+      <stop stop-color="#BC11B1" offset="100%"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-2 3)">
+    <g transform="translate(0 1.793)">
+      <path stroke="#CBCBCB" stroke-width="2" d="M140.12609 178.128568L140.12609 170.202891M231.434178 178.128568L231.434178 170.202891M48.8179129 178.128568L48.8179129 170.202891M7.99829074 174.165819L276.664025 174.165819"/>
+      <mask id="b" fill="white">
+        <use xlink:href="#a"/>
+      </mask>
+      <text fill="#818181" mask="url(#b)" font-family="Roboto-Regular, Roboto" font-size="14">
+        <tspan x="37.013" y="207">Bon</tspan>
+      </text>
+      <text fill="#818181" mask="url(#b)" font-family="Roboto-Regular, Roboto" font-size="14">
+        <tspan x="103.704" y="207">Satisfaisant</tspan>
+      </text>
+      <text fill="#818181" mask="url(#b)" font-family="Roboto-Regular, Roboto" font-size="14">
+        <tspan x="207.358" y="207">Pas bon</tspan>
+      </text>
+      <path fill="url(#c)" d="M8.4496463,177.889162 C5.99157556,177.889162 4,175.899452 4,173.444581 C4,170.98971 5.99157556,169 8.4496463,169 C10.9059228,169 12.8983955,170.98971 12.8983955,173.444581 C12.8983955,175.899452 10.9059228,177.889162 8.4496463,177.889162 Z" mask="url(#b)"/>
+    </g>
+    <g transform="translate(5.383)">
+      <path stroke="#CBCBCB" stroke-width="6" d="M47.5787402 61.8917975L33.5623543 47.8885444M0 136.409826C0 61.0733278 61.1297074 0 136.537756 0 211.944907 0 273.075511 61.0733278 273.075511 136.409826"/>
+      <path fill="#818181" d="M125.955492,146.869444 C121.436768,146.869444 117.774781,143.210888 117.774781,138.696398 C117.774781,134.182805 125.955492,108.505693 125.955492,108.505693 C125.955492,108.505693 134.136203,134.182805 134.136203,138.696398 C134.136203,143.210888 130.473318,146.869444 125.955492,146.869444 Z" transform="rotate(-90 125.955 127.688)"/>
+      <path stroke="#CBCBCB" stroke-width="6" d="M136.537666 20.42159L136.537666.61860249M232.949839 69.9590838L246.966225 55.9558307"/>
+    </g>
+  </g>
+</svg>

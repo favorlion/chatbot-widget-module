@@ -1,0 +1,210 @@
+{
+  "meat": {
+    "type": "carousel",
+    "cards": [{
+      "title": "PRIME RIB ROAST WITH MADEIRA GREEN PEPPERCORN SAUCE",
+      "subtitle": "Preparation: 55 minutes / Cooking: 2h45 minutes",
+      "table": [{
+        "name": "Preparation",
+        "value": "55 minutes"
+      }, {
+        "name": "Cooking",
+        "value": "2h45 minutes"
+      }],
+      "image": "https://images.ricardocuisine.com/services/recipes/500x675_1996127664569678a0d3967.jpg",
+      "buttons": [{
+        "text": "Get Recipe",
+        "action": "url",
+        "url": "https://www.ricardocuisine.com/en/recipes/7004-prime-rib-roast-with-madeira-green-peppercorn-sauce"
+      }]
+    }, {
+      "title": "PORK CHOPS WITH CREAMED CORN AND CHERRY TOMATOES",
+      "subtitle": "Preparation: 30 minutes / Cooking: 25 minutes",
+      "table": [{
+        "name": "Preparation",
+        "value": "30 minutes"
+      }, {
+        "name": "Cooking",
+        "value": "25 minutes"
+      }],
+      "image": "https://images.ricardocuisine.com/services/recipes/500x675_1622838564559d812fb5c66.jpg",
+      "buttons": [{
+        "text": "Get Recipe",
+        "action": "url",
+        "url": "https://www.ricardocuisine.com/en/recipes/6803-pork-chops-with-creamed-corn-and-cherry-tomatoes"
+      }]
+    }, {
+      "title": "GLUTTON BURGERS",
+      "subtitle": "Preparation: 45 minutes / Cooking: 25 minutes",
+      "table": [{
+        "name": "Preparation",
+        "value": "45 minutes"
+      }, {
+        "name": "Cooking",
+        "value": "25 minutes"
+      }],
+      "image": "https://images.ricardocuisine.com/services/recipes/500x675_129545518655faa7115c6e4.jpg",
+      "buttons": [{
+        "text": "Get Recipe",
+        "action": "url",
+        "url": "https://www.ricardocuisine.com/en/recipes/6861-glutton-burgers"
+      }]
+    }]
+  },
+  "fish": {
+    "type": "carousel",
+    "cards": [{
+      "title": "CHILLED SALMON SALAD",
+      "subtitle": "Preparation: 20 minutes / Cooking: 10 minutes",
+      "table": [{
+        "name": "Preparation",
+        "value": "20 minutes"
+      }, {
+        "name": "Cooking",
+        "value": "10 minutes"
+      }],
+      "image": "https://images.ricardocuisine.com/services/recipes/500x675_96818045556cdb7b10aa31.jpg",
+      "buttons": [{
+        "text": "Get Recipe",
+        "action": "url",
+        "url": "https://www.ricardocuisine.com/en/recipes/7054-chilled-salmon-salad"
+      }]
+    }, {
+      "title": "SEARED SPICED FISH WITH CARROT PUREE",
+      "subtitle": "Preparation: 25 minutes / Cooking: 30 minutes",
+      "table": [{
+        "name": "Preparation",
+        "value": "25 minutes"
+      }, {
+        "name": "Cooking",
+        "value": "30 minutes"
+      }],
+      "image": "https://images.ricardocuisine.com/services/recipes/500x675_2029769911562f78a57b03f.jpg",
+      "buttons": [{
+        "text": "Get Recipe",
+        "action": "url",
+        "url": "https://www.ricardocuisine.com/en/recipes/6934-seared-spiced-fish-with-carrot-puree"
+      }]
+    }, {
+      "title": "SALMON TERIYAKI",
+      "subtitle": "Preparation: 20 minutes / Cooking: 25 minutes",
+      "table": [{
+        "name": "Preparation",
+        "value": "20 minutes"
+      }, {
+        "name": "Cooking",
+        "value": "25 minutes"
+      }],
+      "image": "https://images.ricardocuisine.com/services/recipes/500x675_13650036954369b9e41b1e.jpg",
+      "buttons": [{
+        "text": "Get Recipe",
+        "action": "url",
+        "url": "https://www.ricardocuisine.com/en/recipes/6510-salmon-teriyaki"
+      }]
+    }]
+  },
+  "pasta": {
+    "type": "carousel",
+    "cards": [{
+      "title": "GNOCCHI WITH CHEESE AND SAUSAGE",
+      "subtitle": "Preparation: 20 minutes / Cooking: 20 minutes ",
+      "table": [{
+        "name": "Preparation",
+        "value": "20 minutes"
+      }, {
+        "name": "Cooking",
+        "value": "20 minutes"
+      }],
+      "image": "https://images.ricardocuisine.com/services/recipes/500x675_102915458056377c10756a3.jpg",
+      "buttons": [{
+        "text": "Get Recipe",
+        "action": "url",
+        "url": "https://www.ricardocuisine.com/en/recipes/6937-gnocchi-with-cheese-and-sausage"
+      }]
+    }, {
+      "title": "SPAGHETTI WITH VEAL AND MUSHROOMS AU GRATIN",
+      "subtitle": "Preparation: 20 minutes / Cooking: 1h",
+      "table": [{
+        "name": "Preparation",
+        "value": "20 minutes"
+      }, {
+        "name": "Cooking",
+        "value": "1h"
+      }],
+      "image": "https://images.ricardocuisine.com/services/recipes/500x675_152092447955e74a9eb6fb8.jpg",
+      "buttons": [{
+        "text": "Get Recipe",
+        "action": "url",
+        "url": "https://www.ricardocuisine.com/en/recipes/6839-spaghetti-with-veal-and-mushrooms-au-gratin"
+      }]
+    }, {
+      "title": "BUCATINI WITH LEEK BACON AND PINE NUTS",
+      "subtitle": "Preparation: 20 minutes / Cooking: 20 minutes",
+      "table": [{
+        "name": "Preparation",
+        "value": "20 minutes"
+      }, {
+        "name": "Cooking",
+        "value": "20 minutes"
+      }],
+      "image": "https://images.ricardocuisine.com/services/recipes/500x675_49021290455a62838b2991.jpg",
+      "buttons": [{
+        "text": "Get Recipe",
+        "action": "url",
+        "url": "https://www.ricardocuisine.com/en/recipes/6804-bucatini-with-leek-bacon-and-pine-nuts"
+      }]
+    }]
+  },
+  "vegetarian": {
+    "type": "carousel",
+    "cards": [{
+      "title": "SWEET POTATO AND QUINOA VEGETABLE TORTE",
+      "subtitle": "Preparation: 45 minutes / Cooking: 30 minutes",
+      "table": [{
+        "name": "Preparation",
+        "value": "45 minutes"
+      }, {
+        "name": "Cooking",
+        "value": "30 minutes"
+      }],
+      "image": "https://images.ricardocuisine.com/services/recipes/500x675_7402.jpg",
+      "buttons": [{
+        "text": "Get Recipe",
+        "action": "url",
+        "url": "https://www.ricardocuisine.com/en/recipes/7402-sweet-potato-and-quinoa-vegetable-torte"
+      }]
+    }, {
+      "title": "MEAL-SIZED FATTOUSH SALAD WITH LENTILS",
+      "subtitle": "Preparation: 25 minutes / Cooking: 15 minutes",
+      "table": [{
+        "name": "Preparation",
+        "value": "55 minutes"
+      }, {
+        "name": "Cooking",
+        "value": "2h45 minutes"
+      }],
+      "image": "https://images.ricardocuisine.com/services/recipes/500x675_zz-salad-fattouche.jpg",
+      "buttons": [{
+        "text": "Get Recipe",
+        "action": "url",
+        "url": "https://www.ricardocuisine.com/en/recipes/7407-meal-sized-fattoush-salad-with-lentils"
+      }]
+    }, {
+      "title": "BARLEY AND BEAN SOUP",
+      "subtitle": "Preparation: 15 minutes / Cooking: 1h",
+      "table": [{
+        "name": "Preparation",
+        "value": "15 minutes"
+      }, {
+        "name": "Cooking",
+        "value": "1h minutes"
+      }],
+      "image": "https://images.ricardocuisine.com/services/recipes/500x675_7177.jpg",
+      "buttons": [{
+        "text": "Get Recipe",
+        "action": "url",
+        "url": "https://www.ricardocuisine.com/en/recipes/7177-barley-and-bean-soup"
+      }]
+    }]
+  }
+}

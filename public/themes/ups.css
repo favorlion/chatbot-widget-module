@@ -1,0 +1,64 @@
+
+.Button {
+  color: #f7b632;
+  background-color: #321e17; 
+}
+
+.Carousel-card-button {
+    border: 2px solid #f7b632;
+}
+
+.Carousel-card-button:hover {
+    background-color: #f7b632;
+    color: #321e17;
+}
+
+.Conversation {
+  background-color: #e7f3f8;
+}
+
+.TextInput-textarea {
+  background-color: white;
+  
+}
+
+.SendButton {
+  background-image: url(../images/ups-send-button.png);
+}
+
+.Header {
+  color: white;
+  background-color: #321e17;
+  background-image: url(../images/ups-header.png);
+}
+
+.Message-bubble--user {
+  color: #321e17;
+  background-color: #f7b632;
+}
+
+.Message-bubble--service {
+  color: white;
+  background-color: #321e17;
+}
+
+.Avatar-service {
+    background-image: url(../images/ups-avatar-service.png);
+}
+
+.Avatar-user {
+    background-image: url(../images/ups-avatar-user.png);
+}
+
+.quick-reply-button {
+  border: 2px solid #f7b632;
+  color: #321e17;
+}
+
+.Carousel-Card {
+    background-color: #321e17;
+    padding: 0 20px;
+    color: white;
+    border-radius: 5px;
+}
+
